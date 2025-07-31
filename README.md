@@ -43,59 +43,58 @@ The system includes:
 - Users can view their own bookings
 - Admins can view all reservations
 
-📁 Folder Structure
-
+###📁 Folder Structure
 src
 ├── db
-│   ├── connection.js
-│   └── models
-│       ├── movie.model.js
-│       ├── reservation.model.js
-│       ├── showtime.model.js
-│       └── user.model.js
+│ ├── connection.js
+│ └── models
+│ ├── movie.model.js
+│ ├── reservation.model.js
+│ ├── showtime.model.js
+│ └── user.model.js
 │
 ├── middlewares
-│   ├── auth.middleware.js
-│   ├── authorization.middleware.js
-│   └── validation.middleware.js
+│ ├── auth.middleware.js
+│ ├── authorization.middleware.js
+│ └── validation.middleware.js
 │
 ├── modules
-│   ├── admin
-│   │   ├── admin.controller.js
-│   │   ├── admin.endpoint.js
-│   │   ├── admin.service.js
-│   │   └── admin.validation.js
+│ ├── admin
+│ │ ├── admin.controller.js
+│ │ ├── admin.endpoint.js
+│ │ ├── admin.service.js
+│ │ └── admin.validation.js
 │
-│   ├── auth
-│   │   ├── auth.controller.js
-│   │   ├── auth.service.js
-│   │   └── auth.validation.js
+│ ├── auth
+│ │ ├── auth.controller.js
+│ │ ├── auth.service.js
+│ │ └── auth.validation.js
 │
-│   ├── user
-│   │   ├── user.controller.js
-│   │   └── user.service.js
+│ ├── user
+│ │ ├── user.controller.js
+│ │ └── user.service.js
 │
-│   ├── movie
-│   │   ├── movie.controller.js
-│   │   ├── movie.service.js
-│   │   └── movie.validation.js
+│ ├── movie
+│ │ ├── movie.controller.js
+│ │ ├── movie.service.js
+│ │ └── movie.validation.js
 │
-│   ├── showtime
-│   │   ├── showtime.controller.js
-│   │   ├── showtime.service.js
-│   │   └── showtime.validation.js
+│ ├── showtime
+│ │ ├── showtime.controller.js
+│ │ ├── showtime.service.js
+│ │ └── showtime.validation.js
 │
-│   └── reservation
-│       ├── reservation.controller.js
-│       ├── reservation.service.js
-│       └── reservation.endpoint.js
+│ └── reservation
+│ ├── reservation.controller.js
+│ ├── reservation.service.js
+│ └── reservation.endpoint.js
 │
 ├── utils
-│   ├── token
-│   ├── hash
-│   ├── error
-│   ├── file uploads
-│   └── crypto
+│ ├── token
+│ ├── hash
+│ ├── error
+│ ├── file uploads
+│ └── crypto
 │
 ├── app.controller.js
 ├── .env
