@@ -42,7 +42,9 @@ The system includes:
 - Cancel reservations and automatically update available seats
 - Users can view their own bookings
 - Admins can view all reservations
+
 📁 Folder Structure
+
 src
 ├── db
 │   ├── connection.js
